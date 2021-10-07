@@ -1,0 +1,29 @@
+.form {
+  width: 100%;
+  padding: 20px;
+  position: relative;
+  button {
+    height: 40px;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    background: rgb(51, 216, 106);
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      background: rgb(8, 204, 73);
+    }
+    &:active {
+      background: rgb(21, 121, 55);
+    }
+    &:disabled {
+      cursor: not-allowed;
+      opacity: 0.4;
+      &:hover {
+        background: rgb(51, 216, 106);
+      }
+    }
+  }
+}

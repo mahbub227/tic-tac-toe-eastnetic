@@ -1,0 +1,51 @@
+.App {
+  background: rgba(235, 218, 227, 0.226);
+  padding-bottom: 100px;
+  max-width: 1400px;
+  margin: auto;
+  .App-header {
+    padding: 20px;
+    background: rgba(233, 233, 123, 0.603);
+    position: relative;
+    a {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 200px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: rgb(241, 203, 203);
+      border-left: 4px solid rgb(246, 163, 163);
+      box-sizing: border-box;
+      transition: all 0.2s ease-in-out;
+      font-size: 25px;
+      color: rgb(190, 62, 62);
+      text-decoration: none;
+      &:hover {
+        background: rgb(190, 62, 62);
+        color: rgb(235, 184, 184);
+      }
+    }
+    h1 {
+      display: inline;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin-block-start: 0;
+      margin-block-end: 0;
+      animation: title-anim 2s ease-in-out alternate infinite;
+    }
+
+    @keyframes title-anim {
+      from {
+        color: rgba(13, 71, 179, 0.774);
+      }
+      to {
+        color: rgb(9, 158, 96);
+      }
+    }
+  }
+}
