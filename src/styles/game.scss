@@ -1,0 +1,30 @@
+.game {
+  height: 300px;
+  .board {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background: rgba(149, 239, 251, 0.3);
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 14px 15px 23px -6px rgba(9, 61, 104, 0.67);
+    -webkit-box-shadow: 14px 15px 23px -6px rgba(9, 61, 104, 0.67);
+    -moz-box-shadow: 14px 15px 23px -6px rgba(9, 61, 104, 0.67);
+    transition: all 1s ease-in-out;
+    &.hide {
+      opacity: 0;
+      z-index: 0;
+      transform: translateX(-50%) scale(0);
+    }
+    &.show {
+      opacity: 1;
+      z-index: 1;
+      transform: translateX(-50%) scale(1);
+    }
+  }
+  p {
+    text-align: center;
+  }
+}

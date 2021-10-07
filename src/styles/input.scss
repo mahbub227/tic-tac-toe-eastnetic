@@ -1,0 +1,18 @@
+.custom-input {
+  input {
+    height: 40px;
+    width: 100%;
+    border: 2px solid rgb(169, 177, 199);
+    border-radius: 0;
+    padding: 0 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    background: rgba(black, 0.03);
+    transition: all 0.2s ease-in-out;
+    &:focus {
+      outline: none;
+      background: white;
+      border: 2px solid rgb(56, 36, 5);
+    }
+  }
+}
