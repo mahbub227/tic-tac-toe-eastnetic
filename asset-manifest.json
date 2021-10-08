@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/tic-tac-toe-eastnetic/static/css/main.98e1ebd5.chunk.css",
-    "main.js": "/tic-tac-toe-eastnetic/static/js/main.9b447a9a.chunk.js",
-    "main.js.map": "/tic-tac-toe-eastnetic/static/js/main.9b447a9a.chunk.js.map",
-    "runtime-main.js": "/tic-tac-toe-eastnetic/static/js/runtime-main.08a30ec6.js",
-    "runtime-main.js.map": "/tic-tac-toe-eastnetic/static/js/runtime-main.08a30ec6.js.map",
-    "static/js/2.eeec25e2.chunk.js": "/tic-tac-toe-eastnetic/static/js/2.eeec25e2.chunk.js",
-    "static/js/2.eeec25e2.chunk.js.map": "/tic-tac-toe-eastnetic/static/js/2.eeec25e2.chunk.js.map",
-    "static/js/3.a23543f6.chunk.js": "/tic-tac-toe-eastnetic/static/js/3.a23543f6.chunk.js",
-    "static/js/3.a23543f6.chunk.js.map": "/tic-tac-toe-eastnetic/static/js/3.a23543f6.chunk.js.map",
+    "main.css": "/tic-tac-toe-eastnetic/static/css/main.4b2acaf6.chunk.css",
+    "main.js": "/tic-tac-toe-eastnetic/static/js/main.1f4ba844.chunk.js",
+    "main.js.map": "/tic-tac-toe-eastnetic/static/js/main.1f4ba844.chunk.js.map",
+    "runtime-main.js": "/tic-tac-toe-eastnetic/static/js/runtime-main.ec393863.js",
+    "runtime-main.js.map": "/tic-tac-toe-eastnetic/static/js/runtime-main.ec393863.js.map",
+    "static/js/2.fc768383.chunk.js": "/tic-tac-toe-eastnetic/static/js/2.fc768383.chunk.js",
+    "static/js/2.fc768383.chunk.js.map": "/tic-tac-toe-eastnetic/static/js/2.fc768383.chunk.js.map",
+    "static/js/3.e2cefa3f.chunk.js": "/tic-tac-toe-eastnetic/static/js/3.e2cefa3f.chunk.js",
+    "static/js/3.e2cefa3f.chunk.js.map": "/tic-tac-toe-eastnetic/static/js/3.e2cefa3f.chunk.js.map",
     "index.html": "/tic-tac-toe-eastnetic/index.html",
-    "static/css/main.98e1ebd5.chunk.css.map": "/tic-tac-toe-eastnetic/static/css/main.98e1ebd5.chunk.css.map",
-    "static/js/2.eeec25e2.chunk.js.LICENSE.txt": "/tic-tac-toe-eastnetic/static/js/2.eeec25e2.chunk.js.LICENSE.txt",
+    "static/css/main.4b2acaf6.chunk.css.map": "/tic-tac-toe-eastnetic/static/css/main.4b2acaf6.chunk.css.map",
+    "static/js/2.fc768383.chunk.js.LICENSE.txt": "/tic-tac-toe-eastnetic/static/js/2.fc768383.chunk.js.LICENSE.txt",
+    "static/media/game.scss": "/tic-tac-toe-eastnetic/static/media/draw.7ea8f9b6.gif",
     "static/media/gameStart.ce2d94cf.wav": "/tic-tac-toe-eastnetic/static/media/gameStart.ce2d94cf.wav",
     "static/media/playClick.ae2de8e7.wav": "/tic-tac-toe-eastnetic/static/media/playClick.ae2de8e7.wav",
     "static/media/victory.59d74a08.mp3": "/tic-tac-toe-eastnetic/static/media/victory.59d74a08.mp3"
   },
   "entrypoints": [
-    "static/js/runtime-main.08a30ec6.js",
-    "static/js/2.eeec25e2.chunk.js",
-    "static/css/main.98e1ebd5.chunk.css",
-    "static/js/main.9b447a9a.chunk.js"
+    "static/js/runtime-main.ec393863.js",
+    "static/js/2.fc768383.chunk.js",
+    "static/css/main.4b2acaf6.chunk.css",
+    "static/js/main.1f4ba844.chunk.js"
   ]
 }
