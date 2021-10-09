@@ -1,0 +1,27 @@
+.result {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  p {
+    font-weight: 700;
+  }
+  button {
+    height: 40px;
+    width: 50%;
+    margin-top: 30px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    background: rgb(18, 163, 66);
+    margin-left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      background: rgb(4, 97, 35);
+    }
+    &:active {
+      background: rgb(1, 47, 17);
+    }
+  }
+}
