@@ -23,6 +23,9 @@
       font-size: 25px;
       color: rgb(190, 62, 62);
       text-decoration: none;
+      @media only screen and (max-width: 600px) {
+        width: 125px;
+      }
       &:hover {
         background: rgb(190, 62, 62);
         color: rgb(235, 184, 184);
@@ -37,6 +40,9 @@
       margin-block-start: 0;
       margin-block-end: 0;
       animation: title-anim 2s ease-in-out alternate infinite;
+      @media only screen and (max-width: 600px) {
+        top: 100px;
+      }
     }
 
     @keyframes title-anim {

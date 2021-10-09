@@ -1,5 +1,6 @@
 .game {
   height: 300px;
+  margin-top: 60px;
   .board {
     position: absolute;
     height: 300px;
@@ -23,8 +24,28 @@
       z-index: 1;
       transform: translateX(-50%) scale(1);
     }
+    &.show-result {
+      background: white url("../assets/celebrate.gif") 100% 100% no-repeat;
+      opacity: 0.8;
+      z-index: 1;
+      transform: translateX(-50%) scale(1);
+      &.draw {
+        background: white url("../assets/draw.gif") 10% 10% no-repeat;
+      }
+    }
   }
   p {
     text-align: center;
+    transition: all 0.4s 1s ease-in-out;
+    font-size: 25px;
+    color: rgba(11, 25, 104, 0.904);
+    &.hide {
+      opacity: 0;
+      z-index: 0;
+    }
+    &.show {
+      opacity: 1;
+      z-index: 1;
+    }
   }
 }

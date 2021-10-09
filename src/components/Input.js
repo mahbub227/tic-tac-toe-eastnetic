@@ -8,6 +8,7 @@ const Input = (props) => {
         value={props.value}
         onChange={props.onChange}
         placeholder={props.label}
+        required={props.required}
       />
     </div>
   );
